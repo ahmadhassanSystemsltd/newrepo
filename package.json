@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.30.1",
+    "lint": "eslint ./"
+  },
+  "scripts": {
+    "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
+    "build": "webpack --config=Scripts/config/webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ./"
+  }
+}
